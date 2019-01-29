@@ -1,2 +1,1 @@
-# doctorvolleyball.github.io
-Public Website
+# Doctor Volleyball Landing Page
