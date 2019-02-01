@@ -1,0 +1,21 @@
+---
+layout: base
+---
+
+{% include blog/nav.html %}
+
+<header class="bg-gradient" id="home">
+    <div class="container mt-5 pb-5">
+        <h1>{{ page.title }}</h1>
+        <p class="tagline">{{ page.date | date: "%B %e, %Y" }}</p>
+    </div>
+</header>
+<main class="container mt-4">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+            {{ content }}
+        </div>
+    </div>
+</main>
+
+{% include contact.html%}

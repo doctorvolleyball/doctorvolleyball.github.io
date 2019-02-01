@@ -1,1 +1,5 @@
 title: Doctor Volleyball
+
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
